@@ -1,0 +1,102 @@
+body{
+    background-color: #f0f0f0;
+}
+.head{
+     position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+.nav-bg{
+     width: 1000px;
+    height: 60px;
+    display: table-cell;
+   vertical-align: middle;
+}
+.logo{
+    line-height: 60px;
+    font-size: 26px;
+}
+
+ul{
+   
+    list-style: none;
+}
+ li{
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 15px;
+    float: left;
+}
+.nav-bg li:hover{
+    background-color: #eee;
+}
+.banner .img{
+    width: 100%;
+    min-width: 1200px;
+}
+.proccess{
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    margin: 60px auto;
+}
+.title{
+    width: 300px;
+    color: #444;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 30px;
+}
+.sub-title{
+    width: 600px;
+    color: #888;
+    text-align: center;
+    margin: 0 auto;
+}
+.company-wrapper{
+    width: 1000px;
+    margin-top: 20px;
+}
+.company-box{
+    margin: 0 18px;
+    width: 210px;
+    height:270px;
+    background-color: #fff;
+}
+.company-info{
+    color: #888;
+    margin:10px;
+
+}
+.company-logo{
+    text-align: center;
+}
+.company-title{
+    font-size: 18px;
+    text-align: center;
+}
+.company-details{
+    width: 100px;
+    padding: 5px 2px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #c7bc8d;
+    margin:30px auto;
+}
+.company-info p{
+    margin: 5px 0;
+    font-size: 14px;
+}
+.more{
+    margin-top:20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.experience{
+    width: 1000px;
+    margin: 60px auto;
+}
+.experience:hover li{
+    color: red;
+}
