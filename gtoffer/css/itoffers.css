@@ -1,16 +1,15 @@
-body{
-    background-color: #f0f0f0;
-}
 .head{
-     position: relative;
-    width: 1000px;
-    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 2px solid #d5d5d5;
+    z-index: 100;
 }
 .nav-bg{
-     width: 1000px;
+    width: 1000px;
     height: 60px;
-    display: table-cell;
-   vertical-align: middle;
+    margin:auto;
 }
 .logo{
     line-height: 60px;
@@ -18,18 +17,21 @@ body{
 }
 
 ul{
-   
-    list-style: none;
+   list-style: none;
 }
- li{
+.nav-bg li{
     cursor: pointer;
     height: 60px;
     line-height: 60px;
     padding: 0 15px;
     float: left;
+    font-size: 18px;
 }
 .nav-bg li:hover{
     background-color: #eee;
+}
+.banner{
+    margin-top: 60px;
 }
 .banner .img{
     width: 100%;
@@ -38,8 +40,10 @@ ul{
 .proccess{
     position: relative;
     overflow: hidden;
-    width: 1000px;
-    margin: 60px auto;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    background-color: #f0f0f0;
 }
 .title{
     width: 300px;
@@ -56,10 +60,10 @@ ul{
 }
 .company-wrapper{
     width: 1000px;
-    margin-top: 20px;
+    margin: 40px auto;
 }
 .company-box{
-    margin: 0 18px;
+     margin: 0 18px;
     width: 210px;
     height:270px;
     background-color: #fff;
@@ -70,6 +74,8 @@ ul{
 
 }
 .company-logo{
+    position: relative;
+    top: -30px;
     text-align: center;
 }
 .company-title{
@@ -81,6 +87,7 @@ ul{
     padding: 5px 2px;
     text-align: center;
     cursor: pointer;
+    color: #fff;
     background-color: #c7bc8d;
     margin:30px auto;
 }
@@ -89,14 +96,75 @@ ul{
     font-size: 14px;
 }
 .more{
-    margin-top:20px;
-    margin-right: 30px;
     cursor: pointer;
 }
 .experience{
-    width: 1000px;
+    width: 100%;
     margin: 60px auto;
 }
-.experience:hover li{
-    color: red;
+.wrapper{
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.proccess a{
+    color: #acacac;
+    margin: 20px;
+    text-decoration: underline;
+}
+.details-box{
+    position: relative;
+    top: -25px;
+}
+
+.underline{
+    margin: 45px 25px;
+    width: 230px;
+    border: 1px solid #d5d5d5;
+}
+/*.active{
+    position: relative;
+    top: 55px;
+    left: 14px; 
+    width: 32px;
+    border: 1px solid #ddd;
+}*/
+.current{
+
+}
+.exp-wrapper{
+    width: 1000px;
+     padding: 22px 19px 20px 19px;
+}
+.sub-nav li{
+    float: left;
+    height: 25px;
+    margin-right: 5px;
+    color: #c8c8c8;
+    line-height: 25px;
+}
+.sub-nav li.active a{
+    border-bottom: 2px solid #c7bc8d;
+}
+.sub-nav li:hover a{
+    border-bottom: 2px solid #c7bc8d;
+}
+.exp-title{
+    font-size: 20px;
+    color: #696969;
+}
+.exp-padding{
+    margin-top: 20px;
+}
+.exp-content{
+     color: #aaa;
+     font-size: 17px;
+     padding-top: 5px;
+}
+.experience p{
+    width: 962px;
+}
+.exp-bg{
+    background-color: #efefef;
 }
