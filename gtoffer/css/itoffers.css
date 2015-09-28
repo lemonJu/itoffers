@@ -107,7 +107,13 @@ ul{
     font-size: 14px;
 }
 .more{
+    color: #acacac;
     cursor: pointer;
+}
+.exp-box>a{
+    text-decoration: underline;
+}
+.exp-box{
 }
 .experience{
     width: 100%;
