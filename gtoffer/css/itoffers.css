@@ -107,13 +107,15 @@ ul{
     font-size: 14px;
 }
 .more{
-    color: #acacac;
+    color: #acacac; 
     cursor: pointer;
 }
 .exp-box>a{
     text-decoration: underline;
 }
 .exp-box{
+   border: 1px solid #eee;
+  margin-top: 30px;
 }
 .experience{
     width: 100%;
@@ -174,9 +176,6 @@ ul{
     font-size: 18px;
     color: #696969;
 }
-.exp-padding{
-    margin-top: 20px;
-}
 .exp-content{
      color: #aaa;
      font-size: 14px;
@@ -186,7 +185,7 @@ ul{
     width: 968px;
 }
 .exp-bgd{
-    background-color: #f1f1f1;
+    background-color: #fff;
 }
 .exp-bgs{
     background-color: #f9f9f9;
@@ -222,4 +221,7 @@ ul{
 }
 .pull-middle{
     text-align: center;
+}
+.padding{
+    margin-top: 20px;
 }
