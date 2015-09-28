@@ -34,6 +34,12 @@ ul{
     margin-top: 60px;
     height: 264px;
 }
+.nav-bg a{
+    color: #afafaf;
+}
+.nav-bg .active{
+    background-color: #eee;
+}
 .banner .img{
     width: 100%;
     height: 264px;
