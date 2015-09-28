@@ -114,6 +114,7 @@ ul{
     text-decoration: underline;
 }
 .exp-box{
+    overflow: hidden;
    border: 1px solid #eee;
   margin-top: 30px;
 }
