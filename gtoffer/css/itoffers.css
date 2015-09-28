@@ -59,11 +59,11 @@ ul{
     margin: 0 auto;
 }
 .company-wrapper{
-    width: 1000px;
-    margin: 40px auto;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 .company-box{
-     margin: 0 18px;
+     margin-right:55px;
     width: 210px;
     height:270px;
     background-color: #fff;
@@ -89,7 +89,7 @@ ul{
     cursor: pointer;
     color: #fff;
     background-color: #c7bc8d;
-    margin:30px auto;
+    margin: auto;
 }
 .company-info p{
     margin: 5px 0;
@@ -119,8 +119,8 @@ ul{
 }
 
 .underline{
-    margin: 45px 25px;
-    width: 230px;
+    width: 290px;
+
     border: 1px solid #d5d5d5;
 }
 /*.active{
@@ -147,10 +147,13 @@ ul{
 .sub-nav li.active a{
     border-bottom: 2px solid #c7bc8d;
 }
+.sub-nav a{
+    color: #a8a8a8;
+}
 .sub-nav li:hover a{
     border-bottom: 2px solid #c7bc8d;
 }
-.exp-title{
+.exp-title a{
     font-size: 20px;
     color: #696969;
 }
@@ -163,8 +166,21 @@ ul{
      padding-top: 5px;
 }
 .experience p{
-    width: 962px;
+    width: 968px;
 }
 .exp-bg{
     background-color: #efefef;
+}
+.pro-inner{
+    overflow: hidden;
+    width: 1100px;
+}
+.under-box{
+    position: relative;
+    top: -30px;
+}
+
+.under02-box{
+    position: relative;
+    top: 50px;
 }
