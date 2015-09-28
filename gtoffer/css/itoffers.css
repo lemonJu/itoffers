@@ -109,6 +109,7 @@ ul{
 .more{
     color: #acacac; 
     cursor: pointer;
+    text-decoration: underline;
 }
 .exp-box>a{
     text-decoration: underline;
@@ -140,8 +141,8 @@ ul{
 
 .underline{
     width: 290px;
-
-    border: 1px solid #d5d5d5;
+    height: 1px;
+    background: #d5d5d5
 }
 /*.active{
     position: relative;
@@ -176,6 +177,9 @@ ul{
 .exp-title a{
     font-size: 18px;
     color: #696969;
+}
+.exp-title a:hover{
+    color: #000;
 }
 .exp-content{
      color: #aaa;
