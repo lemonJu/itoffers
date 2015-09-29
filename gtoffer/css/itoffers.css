@@ -1,50 +1,4 @@
-.head{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background-color: #fff;
-    border-bottom: 2px solid #d5d5d5;
-    z-index: 100;
-}
-.nav-bg{
-    width: 1000px;
-    height: 60px;
-    margin:auto;
-}
-.logo{
-    line-height: 60px;
-    font-size: 26px;
-}
 
-ul{
-   list-style: none;
-}
-.nav-bg li{
-    cursor: pointer;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 15px;
-    float: left;
-    font-size: 18px;
-}
-.nav-bg li:hover{
-    background-color: #eee;
-}
-.banner{
-    margin-top: 60px;
-    height: 264px;
-}
-.nav-bg a{
-    color: #afafaf;
-}
-.nav-bg .active{
-    background-color: #eee;
-}
-.banner .img{
-    width: 100%;
-    height: 264px;
-    min-width: 1200px;
-}
 .proccess{
     position: relative;
     overflow: hidden;
@@ -123,12 +77,7 @@ ul{
     width: 100%;
     margin: 60px auto;
 }
-.wrapper{
-    position: relative;
-    width: 1000px;
-    margin: auto;
-    overflow: hidden;
-}
+
 .proccess a{
     color: #acacac;
     margin: 20px 100px;
@@ -210,23 +159,4 @@ ul{
 }
 .exp-title:hover{
 
-}
-.footer{
-    width: 100%;
-    height: 73px;
-    background-color: #2a2a2a;
-}
-.footer p{
-    width: auto;
-
-    line-height: 74px;
-}
-.footer a{
-     color: #d4cdcd;
-}
-.pull-middle{
-    text-align: center;
-}
-.padding{
-    margin-top: 20px;
 }
